@@ -6,12 +6,8 @@
 		John Brown
 	</author>
     <platform name="android" />
-    <vs:plugin name="plugin.google.maps">
-        <param name="API_KEY_FOR_ANDROID" value="AIzaSyCacZly7CzbUx4Jq2dN6MKHAamEomXoSgg" />
-    </vs:plugin>
     <plugin name="cordova-plugin-device" spec="~1.1.4" />
     <plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
-    <plugin name="cordova-sqlite-storage" spec="~2.0.4" />
     <plugin name="com.googlemaps.ios" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk" />
     <plugin name="cordova-plugin-googlemaps" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps#multiple_maps">
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyCacZly7CzbUx4Jq2dN6MKHAamEomXoSgg" />
